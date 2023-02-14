@@ -19,3 +19,16 @@ for (int i = 0; i < size; i++)
     Console.Write("Введите элемент Вашего массива: ");
     yourArray[i] = Console.ReadLine();
 }
+
+string[] resultArray = new string[size];
+int j = 0;
+
+for (int i = 0; i < size; i++)
+{
+    if (yourArray[i].Length <= 3)
+    {
+        resultArray[j] = yourArray[i];
+        j++;
+    }
+}
+
