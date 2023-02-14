@@ -9,3 +9,7 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+Console.WriteLine("Массив из скольки элементов Вы хотите создать?");
+int size = Convert.ToInt32(Console.ReadLine());
+
