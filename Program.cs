@@ -31,9 +31,10 @@ for (int i = 0; i < size; i++)
         j++;
     }
 }
-
+Console.WriteLine();
 Console.WriteLine("Массив из элементов, которые Вы ввели:");
 PrintArray(yourArray);
+Console.WriteLine();
 Console.WriteLine("Массив из элементов, в которых количество символов не превышает 3:");
 PrintArray(resultArray);
 
